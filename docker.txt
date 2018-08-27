@@ -75,6 +75,7 @@ DOCKER RUN...
 -- Once started, all the operations related to the container are worked upon using the docker container command:
 -docker container ls
 -Docker container stop/start/rm/ls <container name>
+-docker container prune : remove all dangling containers
 -docker 
 
 ---------------------------------------------------

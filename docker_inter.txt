@@ -1,0 +1,10 @@
+Docker
+
+--Networking
+- Containers are interconnected to each other through a network established by connecting the ethernet port of the individual containers to the host system.
+- the docker engine on initialisation creates a virtual ethernet link between the host and the docker called the docker0 bridge
+
+Container Networking model:
+- Sandbox : isolated machine level network settings like network-stack, routing tables, DNS settings etc 
+- Endpoint : connects sandbox to the docker-engine network, provides portability to connect to different network drivers
+- docker-engine Network : which then translates to the host network settings
